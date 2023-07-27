@@ -1,0 +1,32 @@
+body{
+    background-color: brown;
+}
+
+header{
+    background-color: orange;
+    height: 100px;
+    padding: 50px;
+    font-size: 50px;
+    max-width: 100%;
+    margin-bottom: 40px;
+}
+
+article{
+    width: 600px;
+    margin: auto;
+    border: 3px solid white;
+    background-color: rgb(255, 192, 203);
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+footer{
+    margin-top: 40px;
+    background-color: orange;
+    height: 150px;
+}
+
+a {
+color: orange;
+  }
