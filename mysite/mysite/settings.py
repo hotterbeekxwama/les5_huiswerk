@@ -119,9 +119,23 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
-STATIC_URL = "/home/Wiel1960/wiel1960.pythonanywhere.com/mysite/blog/static/css/"
+# settings.py
 
-STATIC_ROOT = BASE_DIR / "/home/Wiel1960/wiel1960.pythonanywhere.com/mysite/staticfiles-cdn/css/"
+import os
+
+BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
+
+# Define the URL prefix for static files (CSS, JavaScript, images, etc.)
+STATIC_URL = '/static/'
+
+# Define the root directory for static files
+STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles-cdn')
+
+# Additional locations of static files
+STATICFILES_DIRS = [
+    os.path.join(BASE_DIR, 'blog', 'static'),  # Location of your CSS file
+]
+
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
