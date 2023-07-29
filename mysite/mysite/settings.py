@@ -126,7 +126,7 @@ import os
 BASE_DIR = os.path.dirname(os.path.dirname(os.path.abspath(__file__)))
 
 # Define the URL prefix for static files (CSS, JavaScript, images, etc.)
-STATIC_URL = '/static/'
+STATIC_URL = '/home/Wiel1960/wiel1960.pythonanywhere.com/static/'
 
 # Define the root directory for static files
 STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles-cdn')
