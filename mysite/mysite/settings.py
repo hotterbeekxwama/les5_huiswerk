@@ -119,9 +119,7 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
-STATIC_URL = "/home/Wiel1960/wiel1960.pythonanywhere.com/mysite/blog/static/"
-
-
+STATIC_URL = "/home/Wiel1960/wiel1960.pythonanywhere.com/mysite/blog/static/css/"
 
 STATIC_ROOT = BASE_DIR / "/home/Wiel1960/wiel1960.pythonanywhere.com/mysite/staticfiles-cdn/css/"
 
