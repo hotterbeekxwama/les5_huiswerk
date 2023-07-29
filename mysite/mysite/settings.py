@@ -119,11 +119,11 @@ USE_TZ = True
 # Static files (CSS, JavaScript, Images)
 # https://docs.djangoproject.com/en/3.2/howto/static-files/
 
-STATIC_URL = "/home/Wiel1960/wiel1960.pythonanywhere.com/blog/static/css/"
+STATIC_URL = "/home/Wiel1960/wiel1960.pythonanywhere.com/blog/static/"
 
 
 
-STATIC_ROOT = BASE_DIR / "/home/Wiel1960/wiel1960.pythonanywhere.com/mysite/staticfiles-cdn/css/"
+STATIC_ROOT = BASE_DIR / "/home/Wiel1960/wiel1960.pythonanywhere.com/mysite/staticfiles-cdn/"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
