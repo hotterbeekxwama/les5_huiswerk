@@ -123,7 +123,7 @@ STATIC_URL = "/home/Wiel1960/wiel1960.pythonanywhere.com/blog/static/css/"
 
 
 
-# STATIC_ROOT = BASE_DIR / "/home/Wiel600922319/wiel600922319.eu.pythonanywhere.com/mysite/staticfiles-cdn/css/"
+STATIC_ROOT = BASE_DIR / "/home/Wiel1960/wiel1960.pythonanywhere.com/mysite/staticfiles-cdn/css/"
 
 # Default primary key field type
 # https://docs.djangoproject.com/en/3.2/ref/settings/#default-auto-field
