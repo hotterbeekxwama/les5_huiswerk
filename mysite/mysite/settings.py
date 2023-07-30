@@ -110,7 +110,8 @@ USE_TZ = True
 STATIC_URL = '/static/'
 
 # Define the root directory for static files
-STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles-cdn')
+# STATIC_ROOT = os.path.join(BASE_DIR, 'staticfiles-cdn')
+STATIC_ROOT = '/home/Wiel1960/wiel1960.pythonanywhere.com/static/'
 
 # Additional locations of static files
 STATICFILES_DIRS = [
